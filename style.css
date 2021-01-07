@@ -1,12 +1,42 @@
 body {
-  margin: 0.5%;
+  margin: 0;
+  color: white;
 }
 
 .header {
   margin: 0cm;
+  padding: 0cm;
   width: 100%;
   height: 100px;
-  background-color: #44FFD1;
+  background-color: #6153CC;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header h1 {
+  margin: 0cm;
+  font-size: 50px;
+}
+.header img {
+  width: 110px;
+}
+
+.presentacion {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  border: solid 2px #6153CC;
+  padding: 4px;
+  margin: 1% 15%;
+  width: 60%;
+  height: 400px;
+  color: black;
+  font-size: 22px;
+}
+.presentacion img {
+  width: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */

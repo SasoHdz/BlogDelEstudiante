@@ -1,17 +1,53 @@
 
-$colorHeader: #44FFD1;
-$colorTexto:white ;
+$colorHeader: #6153CC;
+$colorTitulo:white ;
+$colorTexto:black;
+$sizeTexto: 22px;
+
+
+
 body {
-    margin: 0.5%;
-    color: $colorTexto;
-    
+    margin: 0;
+    color: $colorTitulo;
 }
 
-.header 
+.header     
 {
     margin: 0cm;
+    padding: 0cm;
     width: 100%;
     height: 100px;
     background-color: $colorHeader ;
-    color: $colorTexto;
+    color: $colorTitulo;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h1 {
+        margin:0cm;
+        font-size: 50px;
+    }
+
+    img {
+        width: 110px;
+    }
 }
+
+.presentacion {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px $colorHeader;
+    padding: 4px;
+    margin: 1% 15%;
+    width: 60%;
+    height: 400px;
+    color: $colorTexto;
+    font-size: $sizeTexto;
+
+    img {
+        width: 80px;
+    }
+}
+

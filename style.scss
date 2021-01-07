@@ -1,0 +1,17 @@
+
+$colorHeader: #44FFD1;
+$colorTexto:white ;
+body {
+    margin: 0.5%;
+    color: $colorTexto;
+    
+}
+
+.header 
+{
+    margin: 0cm;
+    width: 100%;
+    height: 100px;
+    background-color: $colorHeader ;
+    color: $colorTexto;
+}

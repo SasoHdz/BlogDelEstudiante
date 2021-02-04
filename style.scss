@@ -19,9 +19,10 @@ body {
     height: 100px;
     background-color: $colorHeader ;
     color: $colorTitulo;
-    display: flex;
+    display:flex;
     justify-content: space-around;
     align-items: center;
+    
 
     h1 {
         margin:0cm;
@@ -39,7 +40,7 @@ body {
     }
 
     .header__botones {
-        width: 100px;
+        width: 290px;
         display: flex;
         align-items: flex-end;
         
@@ -48,6 +49,15 @@ body {
             border: solid 2px white;
             width: 150px;
             font-size: $sizeTexto;
+
+            a {
+                text-decoration: none;
+                color: $colorTitulo;
+            }
+
+            a:hover{
+                text-decoration: underline;
+            }
         }
     }
 }

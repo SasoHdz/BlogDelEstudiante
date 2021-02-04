@@ -27,7 +27,7 @@ body {
   height: 30px;
 }
 .header .header__botones {
-  width: 100px;
+  width: 290px;
   display: flex;
   align-items: flex-end;
 }
@@ -36,6 +36,10 @@ body {
   border: solid 2px white;
   width: 150px;
   font-size: 22px;
+}
+.header .header__botones div a {
+  text-decoration: none;
+  color: black;
 }
 
 .presentacion {

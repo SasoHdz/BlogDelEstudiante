@@ -16,10 +16,26 @@ body {
 }
 .header h1 {
   margin: 0cm;
-  font-size: 50px;
+  font-size: 45px;
 }
 .header img {
-  width: 110px;
+  width: 100px;
+}
+.header input {
+  border-radius: 15px;
+  width: 200px;
+  height: 30px;
+}
+.header .header__botones {
+  width: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+.header .header__botones div {
+  margin: 0px 2px;
+  border: solid 2px white;
+  width: 150px;
+  font-size: 22px;
 }
 
 .presentacion {
